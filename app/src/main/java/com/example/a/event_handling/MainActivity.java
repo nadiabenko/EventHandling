@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         ConstraintLayout myLayout = findViewById(R.id.activity_main);
 
 
-        myLayout.setOnTouchListener(new ConstraintLayout.OnTouchListener() {
-            public boolean onTouch(View view, MotionEvent m) {
-                handleTouch(m);
-                return true;
-            }
-        }
-        );
+        //myLayout.setOnTouchListener(new ConstraintLayout.OnTouchListener() {
+            //public boolean onTouch(View view, MotionEvent m) {
+                //handleTouch(m);
+                //return true;
+            //}
+        //}
+        //);
 
         tv_bc_cg = findViewById(R.id.tv_bc_cg);
         tv_me1 = findViewById(R.id.tv_me1);
@@ -151,6 +151,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         switch (item.getItemId()) {
             case R.id.btn_clk:
                 setTitle("Button Click");
+                tv_bc_cg.setText("");
                 btn.setVisibility(View.VISIBLE);
                 tv_bc_cg.setVisibility(View.VISIBLE);
                 tv_me1.setVisibility(View.INVISIBLE);
