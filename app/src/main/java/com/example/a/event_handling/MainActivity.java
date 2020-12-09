@@ -29,17 +29,6 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ConstraintLayout myLayout = findViewById(R.id.activity_main);
-
-
-        //myLayout.setOnTouchListener(new ConstraintLayout.OnTouchListener() {
-            //public boolean onTouch(View view, MotionEvent m) {
-                //handleTouch(m);
-                //return true;
-            //}
-        //}
-        //);
-
         tv_bc_cg = findViewById(R.id.tv_bc_cg);
         tv_me1 = findViewById(R.id.tv_me1);
         tv_me2 = findViewById(R.id.tv_me2);
