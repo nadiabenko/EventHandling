@@ -3,4 +3,5 @@
     <string name="item_btn_clk">ButtonClick</string>
     <string name="item_mot_ev">MotionEvent</string>
     <string name="item_com_ges">MotionEvent</string>
+    <string name="btn">Press me</string>
 </resources>
